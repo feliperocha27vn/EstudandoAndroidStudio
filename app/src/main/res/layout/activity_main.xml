@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424769">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="50dp"
+        >
+
+        <!-- nome -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded"
+            android:paddingLeft="15dp"
+            android:hint="Digite seu nome completo aqui"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"/>
+
+        <!-- peso -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded"
+            android:paddingLeft="15dp"
+            android:hint="Digite seu peso em kilogramas"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"/>
+
+        <!-- idade -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idade"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded"
+            android:paddingLeft="15dp"
+            android:hint="Digite sua idade"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"/>
+
+        <!-- altura -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Altura"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded"
+            android:paddingLeft="15dp"
+            android:hint="Digite sua altura em centímetros"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF6500"
+            android:text="CALCULAR"
+            android:layout_gravity="center"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
